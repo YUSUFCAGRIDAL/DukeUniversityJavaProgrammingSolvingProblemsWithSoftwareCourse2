@@ -24,6 +24,6 @@ public class WhichCountriesExport {
 	public void whoExportsCoffee() {
 		FileResource fr = new FileResource();
 		CSVParser parser = fr.getCSVParser();
-		listExporters(parser, "coffee");
+		listExporters(parser, "gold");
 	}
 }
