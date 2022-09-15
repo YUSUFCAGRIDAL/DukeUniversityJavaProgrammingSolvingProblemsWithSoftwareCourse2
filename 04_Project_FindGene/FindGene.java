@@ -20,7 +20,7 @@ public class FindGene {
         }
         
         
-        result = dna.substring(startIndex, stopIndex+3);
+        result = dna.substring(startIndex, stopIndex+3); //starting from ATG until TAA, returns the DNA
                 
         return result;
 
