@@ -9,12 +9,12 @@ public class FindGene {
     public String findGene (String dna) {
         String result ="";
         int startIndex = dna.indexOf("ATG");
-        if(startIndex == -1) //no ATG
+        if(startIndex == -1) //no ATG, we write this code, if there is no ATG we want empty string
         {
           return "";   
         }
         int stopIndex = dna.indexOf("TAA", startIndex + 3);
-        if(stopIndex == -1) //no TAA
+        if(stopIndex == -1) //no TAA, we write this code, if there is no TAA we want empty string
         {
           return "";   
         }
