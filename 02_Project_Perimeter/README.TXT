@@ -1,3 +1,5 @@
+INSTRUCTIONS:
+
 Sample Code Explanation and First Steps
 Note: You must have downloaded BlueJ on or after September 7, 2017, from http://www.dukelearntoprogram.com/ in order to access the Shape and Point Java classes used in the following programming assignments.
 
