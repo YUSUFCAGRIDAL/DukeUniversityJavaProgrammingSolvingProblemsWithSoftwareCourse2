@@ -2,14 +2,14 @@ A common format for storing tabular data (any data organized into columns and ro
 
 By the end of the Module:
 
-Use the open-source Apache Commons CSV package in your own Java programs;
+  *Use the open-source Apache Commons CSV package in your own Java programs;
 
-Access data from one or many CSV files using Java;
+  *Access data from one or many CSV files using Java;
 
-Convert strings into numbers;
+  *Convert strings into numbers;
 
-Understand how to use “null” in Java programs (when you want to represent “nothing”);
+  *Understand how to use “null” in Java programs (when you want to represent “nothing”);
 
-Devise an algorithm (and implement in Java) to answer questions about CSV data; and
+  *Devise an algorithm (and implement in Java) to answer questions about CSV data; and
 
-Analyze CSV data across multiple CSV files (for example, find maximums, minimums, averages, and other simple statistical results).
+  *Analyze CSV data across multiple CSV files (for example, find maximums, minimums, averages, and other simple statistical results).
