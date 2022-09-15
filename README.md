@@ -19,3 +19,6 @@ Important Note: Some code should be run in a custom Bluej Development Environmen
 6- Develop a set of test cases as part of developing a program;<br/>
 7- Create a class with multiple methods that work together to solve a problem; and<br/>
 8- Use divide-and-conquer design techniques for a program that uses multiple methods.<br/>
+
+
+<a href="https://www.dukelearntoprogram.com/course2/doc/"> Documentations used </a>
