@@ -1,7 +1,7 @@
 /**
  * Convert any number of images to a gray scale version by setting all color components of each pixel to the same value.
  * 
- * @author Duke Software Team 
+ * @author Yusuf Çağrı DAL
  */
 import edu.duke.*;
 import java.io.*;
@@ -9,7 +9,7 @@ import java.io.*;
 public class GrayScaleConverter {
 	//I started with the image I wanted (inImage)
 	public ImageResource makeGray(ImageResource inImage) {
-		//I made a blank image of the same size
+		//I made a blank image of the same size with inImage
 		ImageResource outImage = new ImageResource(inImage.getWidth(), inImage.getHeight());
 		//for each pixel in outImage
 		for (Pixel pixel: outImage.pixels()) {
@@ -30,11 +30,11 @@ public class GrayScaleConverter {
 	}
 
 	public void selectAndConvert () {
-		DirectoryResource dr = new DirectoryResource();
-		for (File f : dr.selectedFiles()) {
+		DirectoryResource dr = new DirectoryResource(); //make a directory resource
+		for (File f : dr.selectedFiles()) { 
 			ImageResource inImage = new ImageResource(f);
 			ImageResource gray = makeGray(inImage);
-			gray.draw();
+			gray.draw(); //draw this file
 		}
 	}
 
